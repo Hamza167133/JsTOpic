@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loop</title>
+</head>
+<body>
+	<div id="ans"></div>
+
+	<script>
+		let userNum = parseInt(propmt("Enter a Number: "));
+	</script>
+</body>
+</html>

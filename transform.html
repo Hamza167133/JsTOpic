@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotate vs Skew Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f4;
+    }
+    .box {
+      width: 120px;
+      height: 120px;
+      background: #4CAF50;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .rotate {
+      transform: rotate(30deg);
+    }
+    .skew {
+      transform: skew(25deg, 10deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="box rotate">Rotate</div>
+  <div class="box skew">Skew</div>
+</body>
+</html>

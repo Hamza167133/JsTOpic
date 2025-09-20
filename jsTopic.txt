@@ -1,0 +1,164 @@
+JavaScript Internship Checklist
+1. Basics
+
+ Variables: var, let, const
+
+ Data types: String, Number, Boolean, Null, Undefined, Symbol, BigInt
+
+ Operators: Arithmetic, Assignment, Comparison, Logical, Ternary
+
+ Type conversion & coercion
+
+ Template literals: `Hello ${name}`
+
+2. Control Structures
+
+ Conditional: if, else if, else, switch
+
+ Loops: for, while, do...while, for...of, for...in
+
+ Break & continue
+
+3. Functions
+
+ Function declaration & expression
+
+ Arrow functions
+
+ Parameters & arguments, default values, rest parameters (...args)
+
+ Return values
+
+ Scope: global & local
+
+ Hoisting
+
+4. Objects & Arrays
+
+Objects:
+
+ Creation, properties, methods
+
+ Access: obj.key / obj['key']
+
+ Iteration: for...in, Object.keys(), Object.values(), Object.entries()
+
+Arrays:
+
+ Creation & access
+
+ Iteration: for, for...of, forEach
+
+ Methods: push, pop, shift, unshift, map, filter, reduce, sort, slice, splice, concat, join, includes, indexOf
+
+5. DOM (Document Object Model)
+
+ Selecting elements: getElementById, getElementsByClassName, querySelector, querySelectorAll
+
+ Manipulating elements: innerHTML, textContent, style, classList
+
+ Create/remove elements: createElement, appendChild, removeChild
+
+ Event handling: addEventListener, event types (click, input, submit, etc.)
+
+ Event object & bubbling
+
+ Traversing: parentNode, children, nextSibling, previousSibling
+
+6. BOM (Browser Object Model)
+
+ window object: alert(), confirm(), prompt()
+
+ location object: href, reload(), navigate
+
+ history object: back(), forward(), go()
+
+ navigator object: userAgent, platform
+
+ screen object: width, height
+
+7. ES6+ Features
+
+ let & const
+
+ Template literals
+
+ Arrow functions
+
+ Destructuring (array & object)
+
+ Spread & rest operators
+
+ Default parameters
+
+ Modules (import / export)
+
+ Classes & inheritance
+
+ Promise, async/await
+
+8. Events
+
+ Event types: click, mouseover, keypress, input, submit, load
+
+ Event propagation: bubbling & capturing
+
+ Event delegation
+
+ Form validation
+
+9. Asynchronous JS
+
+ setTimeout, setInterval
+
+ Fetch API (fetch() & .then/.catch)
+
+ Promises
+
+ Async/Await
+
+10. Error Handling
+
+ try, catch, finally
+
+ throw statement
+
+ Error objects
+
+11. JSON
+
+ JSON.parse()
+
+ JSON.stringify()
+
+ Using JSON for API data
+
+12. Local & Session Storage
+
+ localStorage.setItem(), getItem(), removeItem()
+
+ sessionStorage usage
+
+13. Misc / Utility
+
+ Math object: Math.random(), Math.floor(), Math.ceil()
+
+ Date object: new Date(), .getFullYear(), .getMonth(), .getDate()
+
+ Regular expressions basics (optional)
+
+💡 Tips for Internship Prep:
+
+Focus on DOM + BOM + Events + ES6 basics + Async JS first.
+
+Practice small projects:
+
+To-do app
+
+Form validation
+
+Interactive buttons & alerts
+
+Fetch API example
+
+Tick off topics as you study — gives confidence for interviews.

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loop</title>
+</head>
+<body>
+	<div id="ans"></div>
+
+	<script>
+		function owels(str) {
+			let result = "";
+			let vowels = "aeiouAEIOU";
+			for(let char of str) {
+				if(vowels.includes(char)){
+					result += char + "\n";
+				}
+			}
+			return result;
+		}
+		console.log(owels("aeioueedsdAsEIOU")); // ✅ use quotes
+	</script>
+</body>
+</html>

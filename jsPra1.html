@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Condition</title>
+</head>
+<body>
+	<div id="result"></div>
+	
+	<script>
+		let x = parseInt(prompt("Enter a number: "));
+		
+		if (x % 5 === 0) {
+			document.getElementById("result").innerHTML = x + " is a multiple of 5";
+		} else {
+			document.getElementById("result").innerHTML = x + " is NOT a multiple of 5";
+		}
+	</script>
+</body>
+</html>
