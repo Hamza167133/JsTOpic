@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			.header-heading {
+				padding: 20px;
+				display: flex;
+				gap: 10px;
+			}
+			.header-heading-logo {
+				height: 100px;
+				width: 100px;
+				background-color: rgb(240, 240, 240);
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.inner-logo {
+				height: 50px;
+				width: 50px;
+				background-color: rgb(219, 219, 219);
+				border-radius: 5px;
+			}
+			.header-heading-contents {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			.line {
+				border: none;
+    				background-color: rgb(230, 230, 230);
+    				height: 2px;
+			}
+			.header-links {
+				padding: 20px;
+				display: flex;
+				justify-content: center;
+			}
+			.unorder-list {	
+				display: flex;
+				justify-content: center;
+				gap: 30px;
+				list-style-type: none;
+			}
+			.link {	
+				text-decoration: none;
+				color: rgb(54, 55, 56);
+			}
+			.about-me {
+				padding: 20px;
+			}
+			.about-me-heading {
+				font-size: 2rem;
+			}
+			.about-me-para {
+				margin: 10px 0;
+			}
+			.about-me-list {
+				list-style-position: inside;
+				margin-left: 10px;
+				margin-bottom: 20px;
+			}
+			.about-me-list-item {
+				padding-bottom: 5px;
+			}
+			.skills-section {
+				padding: 20px;
+			}
+			.skills-section-heading {
+				font-size: 2rem;
+				margin: 10px 0;
+			}
+			.skills-section-list {
+				list-style-position: inside;
+				margin-left: 10px;
+				margin-bottom: 20px;
+			}
+			.skills-section-item {
+				padding-bottom: 5px;
+			}
+			.work-experience {
+				padding: 20px;
+			}
+			.work-heading {
+				font-size: 2rem;
+				margin: 10px 0;
+			}
+			.work-detail {
+				display: flex;
+				gap: 265px;
+				padding: 0 5px;
+			}
+			.Work-title {
+				display: flex;		
+				flex-direction: column;
+				gap: 3px;
+			}
+			.education-date {
+				display: flex;		
+				flex-direction: column;
+				gap: 3px;
+			}
+			.Work-list {
+				list-style-position: inside;
+				padding-left: 10px;
+			}
+			.Work-list-item {
+				padding: 2px;
+			}
+			.education-section {
+				padding: 20px;
+			}
+			.education-heading {
+				font-size: 2rem;
+				margin: 10px 0;
+			}
+			.education-detail {
+				display: flex;
+				gap: 265px;
+			}
+			.company-info {
+				padding: 20px;
+				display: flex;
+				gap: 240px;
+			}
+			.contact-info {
+				width: 200px;
+			}
+			.contact-info h4 {
+				font-size: 1.5rem;
+				margin-bottom: 10px;
+			}
+			.contact-us {
+				
+				display: flex;
+				flex-direction: column;
+				gap: 2px;
+			}
+			.contact-us input{
+				display: flex;
+				flex-direction: column;
+				gap: 2px;
+				padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="header-heading">
+				<div class="header-heading-logo">
+					<div class="inner-logo"></div>
+				</div>
+				<div class="header-heading-contents">
+					<h1>John Doe</h1>
+					<p>Web Developer</p>
+				</div>
+			</div>
+			<hr class="line">
+			<nav class="header-links">
+				<ul class="unorder-list">
+					<li class="link"><a href="#"  class="link">About</a></li>
+					<li class="link"><a href="#"  class="link">Skills</a></li>
+					<li class="link"><a href="#"  class="link">Experience</a></li>
+					<li class="link"><a href="#"  class="link">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<hr class="line">
+		<main>
+			<!-- About Me Section -->
+			<section class="about-me">
+				<h2 class="about-me-heading">About Me</h2>
+				<p class="about-me-para">Fragur name,rosam description</p>
+				<ul class="about-me-list">
+					<li class="about-me-list-item">amal@example.com</li>
+					<li class="about-me-list-item">123-456-7890</li>
+				</ul>
+			</section>
+			<hr class="line">
+			<!-- Skills Section -->
+			<section class="skills-section">
+				<h2 class="skills-section-heading">Skills</h2>
+				<ul class="skills-section-list">
+					<li class="skills-section-list-item">Skill 1</li>
+					<li class="skills-section-list-item">Skill 2</li>
+					<li class="skills-section-list-item">Skill 3</li>
+					<li class="skills-section-list-item">Skill 4</li>
+				</ul>
+			</section>
+			<hr class="line">
+			<!-- Work Experience Section -->
+			<section class="work-experience">
+				<h2 class="work-heading">Work Experience</h2>
+				<div  class="work-detail">
+					<div class="Work-title">
+						<h4>Job Title</h4>
+						<p>Company</p>
+						<p>YYYY-YYYY</p>
+						<ul  class="Work-list">
+							<li class="Work-list-item">Responsibilities</li>
+							<li class="Work-list-item">Responsibilities</li>
+						</ul>
+					</div>
+					<div class="education-date">
+						<h4>Job Title</h4>
+						<p>Company</p>
+						<p>YYYY-YYYY</p>
+						<ul class="Work-list">
+							<li class="Work-list-item">Responsibilities</li>
+							<li class="Work-list-item">Responsibilities</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<hr class="line">
+			<!-- Education Section -->
+			<section class="education-section">
+				<h2 class="education-heading">Education</h2>
+				<div  class="education-detail">
+					<div class="education-degree">
+						<h4>Institution Name</h4>
+						<p>Degree</p>
+					</div>
+					<div class="education-date">
+						<h4>Degree</h4>
+						<p>YYYY-Y9YY</p>
+					</div>
+				</div>
+			</section>
+			<hr class="line">
+		</main>
+		<footer class="company-info">
+			<div class="contact-info">
+				<h4>Contact</h4>
+				<p>&copy 2024 John Doe</p>
+			</div>
+			<div class="contact-us">
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="Message">
+			</div>
+		</footer>
+	</body>
+</html>
+
